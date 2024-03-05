@@ -1,0 +1,51 @@
+<div class="container">
+    <div class="col">
+      <img src="assets/image/LOGO PROJET.png" alt="logo">
+      <p>The registration page allows users to create a<br>personal account in the application. This gives<br>them the opportunity to personalize their<br>experience based on their specific school<br>preferences and needs. By collecting information<br>such as geographic location, desired grade<br>levels and important selection criteria, the app<br>can provide personalized and relevant<br>recommendations for each user.</p>
+    </div>
+    <div class="col-md-6">
+      <h3>REGISTRATION</h3>
+      <p class="titre">It's completely free</p>
+      <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="name" class="para">Name</label>
+          <input type="text" id="name" class="form-control" formControlName="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email" class="para">Email</label>
+          <input type="email" id="email" class="form-control" formControlName="email" placeholder="Enter your Email">
+        </div>
+        <div class="form-group">
+          <label for="username" class="para3">Username</label>
+          <input type="text" id="username" class="form-control" formControlName="username" placeholder="Enter your Username">
+        </div>
+        <div class="form-group">
+          <label for="gender" class="para4">Gender</label>
+          <div class="form-check">
+            <input type="radio" id="male" class="form-check-input" formControlName="gender" value="Male">
+            <label for="male" class="form-check-label">Male</label>
+
+            <input type="radio" id="female" class="form-check-input" formControlName="gender" value="Female">
+            <label for="female" class="form-check-label">Female</label>
+          </div>
+          <div class="form-check">
+
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="password" class="para1">Password</label>
+          <input type="password" id="password" class="form-control" formControlName="password" placeholder="Enter your Password">
+        </div>
+        <div class="form-group">
+          <label for="city" class="para2">City</label>
+          <input type="text" id="city" class="form-control" formControlName="city" placeholder="Enter your City">
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn1">Confirm</button>
+          <button type="button" class="btn2" (click)="onCancel()">Cancel</button>
+        </div>
+      </form>
+    </div>
+
+</div>
+

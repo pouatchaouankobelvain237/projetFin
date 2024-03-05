@@ -1,0 +1,79 @@
+.container{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px 30px;
+  box-shadow: lightgray 4px 4px 20px;
+  display: flex;
+}
+.container button{
+  display: flex;
+  float: right;
+
+}
+
+.form-group input{
+  width: 300px;
+  background-color: #ECEAEAC9;
+  margin-top: 20px;
+}
+form{
+  text-align: justify;
+}
+.para {
+  font-weight: bold;
+  margin-right: 42px;
+  margin-left: 20px;
+}
+.para1{
+  font-weight: bold;
+  margin-right: 45px;
+  margin-left: 20px;
+}
+.para2{
+  font-weight: bold;
+  margin-right: 13px;
+  margin-left: 20px;
+}
+.para3{
+  font-weight: bold;
+  margin-right: 100px;
+  margin-left: 20px;
+}
+.para5{
+  font-weight: bold;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.para4{
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+
+.btn1{
+  height: 51px;
+  width: 200px;
+  background-color: #86A7FC;
+  color:  #FFFFFF;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 20px;
+  border-radius: 5px;
+
+
+}
+.btn2{
+  height: 51px;
+  width: 200px;
+  background-color:  #FF9843;
+  color:  #FFFFFF;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 130px;
+  border-radius: 5px;
+}

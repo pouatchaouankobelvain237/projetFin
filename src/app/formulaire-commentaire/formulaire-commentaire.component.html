@@ -1,0 +1,70 @@
+<div class="blocp">
+  <div class="bloc1">
+    <img src="assets/image/LOGO PROJET.png" alt="Logo" title="Logo">
+    <div class="sbloc">
+      <h3>Decision Assist</h3>
+      <p>Noter cet établissement</p>
+    </div>
+     <div><button class="bt1">Publier</button></div>
+  </div>
+  <div class="bloc2">
+    <div class="circle-container">
+      <img src="" alt="Photo">
+    </div>
+    <div class="sbloc2">
+      <p>Nom de l’utilisateur</p>
+      <p>Les avis  sont publics et incluent des informations<br>
+      sur votre compte et votre appareil. <a href="">En savoir plus</a></p>
+    </div>
+  </div>
+  <div class="bloc3" >
+
+
+      <span class="star" [class.selected]="starSelected >= 1" (click)="toggleStar(1)">
+        <i class="fa fa-star"></i>
+      </span>
+      <span class="star" [class.selected]="starSelected >= 2" (click)="toggleStar(2)">
+        <i class="fa fa-star"></i>
+      </span>
+      <span class="star" [class.selected]="starSelected >= 3" (click)="toggleStar(3)">
+        <i class="fa fa-star"></i>
+      </span>
+      <span class="star" [class.selected]="starSelected >= 4" (click)="toggleStar(4)">
+        <i class="fa fa-star"></i>
+      </span>
+      <span class="star" [class.selected]="starSelected >= 5" (click)="toggleStar(5)">
+        <i class="fa fa-star"></i>
+      </span>
+
+  </div>
+  <div class="commentaire">
+    <label for="comment"></label>
+    <textarea id="comment" name="comment" rows="6" cols="50" [(ngModel)]="commentContent"  placeholder="Décrivez  votre expérience
+    (facultaif)" style="border-radius: 5px;" ></textarea>
+  </div>
+  <h4>Donnez-nous plus d’information<br>
+    (facultatif)</h4>
+  <div class="bloc4">
+    <div class="sb1">
+      <p>Cet établissement est-il<br>
+        sécurisé ?</p>
+      <div>
+        <button class="bt" id="b">Nom</button>
+        <button class="bt" id="b">Je sais pas </button>
+        <button class="bt" id="b">Oui</button>
+      </div>
+    </div>
+    <div class="sb2">
+      <p>Cet établissement est-il<br>
+        une bonne qualité<br>
+         d’enseignement et de suivi<br>
+         des élèves ?</p>
+      <div>
+        <button class="bt">Nom</button>
+        <button class="bt">Je sais pas </button>
+        <button class="bt">Oui</button>
+      </div>
+    </div>
+  </div>
+
+</div>

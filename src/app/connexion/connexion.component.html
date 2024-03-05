@@ -1,0 +1,29 @@
+<!-- Utilisez la directive formGroup pour lier le formulaire HTML à l'objet FormGroup -->
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+  <div class="position">
+    <div class="pa1">
+      <p class="paragraphe">Loggin in to the app allaws you to track user activity<br>and progress.This may include keeping a history of<br>searches perfomed, schools viewed, comments left,<br>etc. this data can be used to provide more accurate<br>and personallzed recommendations, as well as help<br>users navigate their own research and decision-<br>making jaumey.</p>
+      <img class="dispo" src="assets/image/Cap.png" alt="free">
+    </div>
+    <div class="pa2">
+      <img src="assets/image/LOGO PROJET.png" alt="logo">
+      <p class="titre">CONNEXION</p>
+      <P class="sousTitre">Login free</P>
+      <!-- Utilisez la directive formControlName pour lier les champs de saisie aux FormControl -->
+      <div class="connexion1">
+        <p class="connec">Username</p> <input type="text" formControlName="username" placeholder="Enter your username">
+      </div>
+      <div class="connexion1">
+        <p class="connec">Password</p> <input type="password" formControlName="password" placeholder="Enter your password">
+      <!-- Utilisez la propriété valid de FormGroup pour désactiver le bouton de soumission si le formulaire n'est pas valide -->
+      </div>
+      <p class="oublier">Forgot Password?</p>
+
+      <button type="submit" [disabled]="!loginForm.valid">confirm</button>
+    </div>
+
+</div>
+
+
+</form>
+

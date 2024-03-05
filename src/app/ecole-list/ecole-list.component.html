@@ -1,0 +1,13 @@
+<h2>Les objectifs des établissements scolaire</h2>
+<div class="pre"><p>Le Cameroun abrite un large éventail d'établissements, offrant aux élèves un accès à une éducation de qualité. Les écoles au<br>Cameroun se distinguent par leur engagement envers l'excellence académique et la préparation des élèves pour leur avenir. Les<br>programmes éducatifs sont conçus pour favoriser le développement intellectuel, social et personnel des élèves. Les écoles au<br>Cameroun valorisent également l'éducation holistique, en encourageant les activités sportives, artistiques et culturelles.</p></div>
+<div class="recadrage"  style="background-image:  url('../assets/image/img.jpg');">
+  <p>Find your School</p>
+  <div class="deu">
+    <input #searchInput type="text" placeholder="Start typing your state">
+    <button (click)="searchElement()">Rechercher</button>
+  </div>
+</div>
+<div #searchResult></div>
+<h4 class="titre">Etablissements d’enseignement sécondaire</h4>
+<div class=><app-ecole *ngFor="let ecole of Ecoles" [ecole]="ecole"></app-ecole></div>
+

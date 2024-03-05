@@ -1,0 +1,106 @@
+<div class="face-snap-card" [ngClass]="{ snapped: buttext ==='aime' }">
+  <div class="bloc">
+      <div class="image"><img [src]="ecole.imageUrl"></div>
+      <div class="bloc1">
+        <h2>{{ecole.title }}</h2>
+        <p>Le collège françois xavier mvogt de <u>Yaoundé</u> est un<br>
+        établissement d'enseignement secondaire du<br>
+        Cameroun. Il s'étend sur 35 ha dans le quartier<br>
+        administratif de <u>Ngoa Ekélé</u> dans la commune<br>
+        d'arrondissement de Yaoundé III.</p>
+        <h2>Histoire</h2>
+        <p>Il est inauguré avant l'indépendance du pays,<br>
+        le 21 octobre 1952 par <u>Louis-Paul Aujoulat</u>, secrétaire<br>
+        d'État à la France d'outre-mer. Avec son internat<br>
+        des régions du Cameroun, il fut un des plus grands<br>
+        établissements <u>d'Afrique francophone</u> comptant<br>
+        jusqu'à 17 000 élèves1.</p>
+      </div>
+  </div>
+  <div class="bloc3">
+    <div class="bloc2">
+        <h4 class="pa">Galerie photos</h4>
+        <app-gallery></app-gallery>
+        <h4 class="pa">Langues Parlées</h4>
+        <p ><i id="per" class="fas fa-comment"></i> French</p>
+        <p ><i id="per" class="fas fa-comment"></i> English</p>
+        <h4 class="pa">Give your opinion</h4>
+        <i class="fas fa-star white-star orange-border"></i>
+        <i class="fas fa-star white-star orange-border"></i>
+        <i class="fas fa-star white-star orange-border"></i>
+        <i class="fas fa-star white-star orange-border"></i>
+        <i class="fas fa-star white-star orange-border"></i>
+        <h4 class="titre"><a href="commentaire">Write a review</a></h4>
+    </div>
+    <div class="bloc4">
+        <h4 class="pa">Useful information</h4>
+        <p><i class="fas fa-phone"></i><span style="margin-right: 15px;"></span>phone number</p>
+        <p>+237 698564758<br>
+          +237 656422315</p>
+        <p><i class="fas fa-map-marker-alt"></i><span style="margin-right: 15px;"></span>Localisation</p>
+        <p>Ville: <a href="https://fr.wikipedia.org/wiki/Yaoundé">Yaoundé</a> <br>
+          Pays:  <a href="https://fr.wikipedia.org/wiki/Cameroun">Cameroun</a><br>
+          Key data<br>
+           details: <a href="">3° 51′ 21″ nord,</a><br>
+           <span style="margin-right: 70px;"></span><a href="https://fr.wikipedia.org/wiki/Lycée_Général-Leclerc_%28Yaoundé%29#/maplink/0">11° 30′ 26″ est</a><br>
+          Geolocation on the map: Yaouné</p>
+        <div class="geo">
+
+        </div>
+        <p><i class="fas fa-clock"></i><span style="margin-right: 15px;"></span>Hourly</p>
+        <p>Monday to Saturday<br>
+          from 7 a.m. to 6 p.m.</p>
+        <p><i class="fas fa-globe"></i><span style="margin-right: 15px;"></span>Website</p>
+        <p><a href="https://www.2edb-leclerc.fr/lycee-marechal-leclerc-yaounde-cameroun/">https://www.2edb-leclerc.fr/lycee-marechal-leclerc-yaounde-cameroun/</a></p>
+    </div>
+  </div>
+  <div class="bloc7">
+    <h4>Ratings and reviews</h4>
+    <p>Ratings and reviews are validated. They are provided by<br>
+      peoplewho have been in contact with this establishment like you.</p>
+  </div>
+  <div class="bloc8">
+    <h1 class="nb">2.3</h1>
+    <i class="fas fa-star white-sta orange-border"></i>
+    <i class="fas fa-star white-sta orange-border"></i>
+    <i class="fas fa-star white-star orange-border"></i>
+    <i class="fas fa-star white-star orange-border"></i>
+    <i class="fas fa-star white-star orange-border"></i>
+
+  </div>
+  <div class="bloc9">
+    <div class="circle-container">
+      <p class="pos">N</p>
+    </div>
+    <p class="pos1">Username</p>
+
+  </div>
+  <div class="bloc10">
+    <div class="pos3">
+      <i class="fas fa-star white-sta orange-border"></i>
+      <i class="fas fa-star white-sta orange-border"></i>
+      <i class="fas fa-star white-sta orange-border"></i>
+      <i class="fas fa-star white-star orange-border"></i>
+      <i class="fas fa-star white-star orange-border"></i>
+    </div>
+    <p class="pos2">Publication date</p>
+  </div>
+  <div class="bloc11">
+    <p>I have been sending my children since the 6th grade to this<br>
+      establishmentand we always have good results and the follow-up is impeccable.</p>
+  </div>
+  <div class="bloc12">
+    <h3>Did you find this comment useful ?</h3>
+    <div class="pos4">
+      <button class="b1">Yes</button>
+      <button class="b1">Non</button>
+    </div>
+
+  </div>
+  <h4 class="titre2"><a href="listeCommentaire">Show all reviews</a></h4>
+
+  <button routerLink="/List">revenir</button>
+
+</div>
+
+

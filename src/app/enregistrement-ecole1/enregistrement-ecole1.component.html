@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="titre"><h1>ENREGISTREMENT DES ETABLISSEMENTS</h1></div>
+
+  <div class="content">
+    <div>
+      <label for="classeSelectionnee">Classe:</label>
+      <select [ngModel]="classeSelectionnee" id="classeSelectionnee">
+        <option value="" disabled selected>classe</option>
+        <option *ngFor="let classe of classeDisponibles" [value]="classe">{{ classe }}</option>
+      </select>
+    </div>
+    <div>
+      <form [formGroup]="registrationForm">
+        <div class="form-group">
+          <label for="Effectif" class="para">Effectif:</label>
+          <input type="number" id="Effectif" class="form-control" formControlName="Effectif">
+        </div>
+        <div class="form-group">
+          <label for="Pension" class="para">Pension:</label>
+          <input type="number" id="Pension" class="form-control" formControlName="Pension">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>

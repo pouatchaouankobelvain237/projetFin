@@ -1,0 +1,14 @@
+<div class="face-snap-card" [ngClass]="{ 'snapped': buttext === 'aime' }">
+  <img [src]="ecole.imageUrl">
+  <h4>{{ ecole.title }}</h4>
+  <p>{{ ecole.description }}</p>
+  <h6>{{ecole.like}} j'aime.</h6>
+  <h6 class="com">commentaire</h6>
+  <button (click)="onViewEcole()">voir plus</button>
+  <span class="fa-stack" style="float: right;">
+    <i class="fas fa-circle fa-stack-2x" style="color: white;"></i>
+    <i class="fas fa-heart fa-stack-1x fa-inverse" style="color: orange;"></i>
+  </span>
+</div>
+
+

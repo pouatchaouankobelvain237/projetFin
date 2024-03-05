@@ -1,0 +1,88 @@
+.container{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  height: 200px;
+  object-fit: contain;
+  margin-top: -100px;
+}
+.col{
+  display: flex;
+  margin-right: 20px;
+  font-weight: bold;
+  flex-direction: column;
+  text-align: justify;
+}
+.titre{
+  color:  #3468C0;
+}
+
+
+.form-group input{
+  width: 300px;
+  background-color: #ECEAEAC9;
+  margin-top: 20px;
+}
+form{
+  text-align: justify;
+}
+.para {
+  font-weight: bold;
+  margin-right: 42px;
+  margin-left: 20px;
+}
+.para1{
+  font-weight: bold;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.para2{
+  font-weight: bold;
+  margin-right: 56px;
+  margin-left: 20px;
+}
+.para3{
+  font-weight: bold;
+  margin-right: 15px;
+  margin-left: 20px;
+}
+.form-check{
+  display: inline-block;
+}
+.para4{
+  font-weight: bold;
+  margin-left: 20px;
+}
+.form-check-input{
+  margin-left: -110px;
+  display: inline-block;
+}
+.form-check-label{
+  margin-left: -130px;
+  display: inline-block;
+}
+.btn1{
+  height: 51px;
+  width: 200px;
+  background-color: #86A7FC;
+  color:  #FFFFFF;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 20px;
+  border-radius: 5px;
+
+
+}
+.btn2{
+  height: 51px;
+  width: 200px;
+  background-color:  #FF9843;
+  color:  #FFFFFF;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 130px;
+  border-radius: 5px;
+}

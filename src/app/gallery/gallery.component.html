@@ -1,0 +1,14 @@
+<div class="gallery">
+  <div class="photo" *ngFor="let image of images; let i = index" (click)="showImage(i)">
+    <img [src]="image" alt="Image de la galerie">
+  </div>
+</div>
+
+<div *ngIf="currentImageIndex >= 0">
+  <div class="image-overlay">
+    <img [src]="images[currentImageIndex]" alt="Image en grande taille">
+    <button  (click)="currentImageIndex = (currentImageIndex - 1 + images.length) % images.length" class="navigation-button1">Précédent</button>
+    <button (click)="currentImageIndex = (currentImageIndex + 1) % images.length" class="navigation-button2">Suivant</button>
+    <button (click)="currentImageIndex = -1" class="close-button">Fermer</button>
+  </div>
+</div>

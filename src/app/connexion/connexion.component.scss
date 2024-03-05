@@ -1,0 +1,74 @@
+.position{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .pa1{
+  display: flex;
+  margin-right: 20px;
+  font-weight: bold;
+  margin-top: 80px;
+  flex-direction: column;
+}
+.pa1 .dispo{
+  width:400px;
+  height: 433px;
+  margin-top: -40px;
+  margin-right: 48px;
+}
+
+.pa2{
+  display: flex;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.pa2 .titre {
+  font-weight: 800;
+  font-size: 40px;
+  display: flex;
+  margin-left:90px ;
+  margin-top: -10px;
+}
+.pa2 .sousTitre{
+  color:  #3468C0;
+  font-size: 36px;
+  margin-top: -40px;
+  margin-left: 60px;
+}
+ img {
+  height: 200px;
+  object-fit: contain;
+  margin-left: 30px;
+}
+.connexion1 p, .connexion1 input {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.connexion1 input {
+  width: 300px;
+  background-color: #ECEAEAC9;
+}
+
+button {
+  height: 51px;
+  width: 200px;
+  background-color:  #FF9843;
+  color:  #FFFFFF;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.connec{
+  font-weight: bold;
+}
+.oublier{
+  font-weight: bold;
+  margin-right: 265px;
+}
+
+

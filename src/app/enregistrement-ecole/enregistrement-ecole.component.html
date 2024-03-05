@@ -1,0 +1,38 @@
+<div class="container">
+
+  <div class="col-md-6">
+    <h1>ENREGISTREMENT DES ETABLISSEMENTS</h1>
+    <form [formGroup]="registrationForm">
+      <div class="form-group">
+        <label for="NomDeEtablissement" class="para">Nom de l'établissement:</label>
+        <input type="text" id="NomDeEtablissement" class="form-control" formControlName="NomDeEtablissement">
+      </div>
+      <div class="form-group">
+        <label for="TypeDeEtablissement" class="para">Type de l'établissement:</label>
+        <input type="text" id="TypeDeEtablissement" class="form-control" formControlName="TypeDeEtablissement">
+      </div>
+      <div class="form-group">
+        <label for="AnneeScolaire" class="para3">Année Scolaire:</label>
+        <input type="date" id="AnneeScolaire" class="form-control" formControlName="AnneeScolaire">
+      </div>
+
+      <div class="form-group">
+        <label for="VilleDeEtablissement" class="para1">Ville de l'établissement:</label>
+        <input type="text" id="VilleDeEtablissement" class="form-control" formControlName="VilleDeEtablissement">
+      </div>
+      <div class="form-group">
+        <label for="QuartierDeEtablissement" class="para5">Quartier de l'établissement:</label>
+        <input type="text" id="QuartierDeEtablissement" class="form-control" formControlName="QuartierDeEtablissement">
+      </div>
+      <div class="form-group">
+        <label for="DescriptionDeLaLocalisation" class="para2">Description de la localisation:</label>
+        <input type="text" id="DescriptionDeLaLocalisation" class="form-control" formControlName="DescriptionDeLaLocalisation">
+      </div>
+      <button (click)="onContinue()">suivant ></button>
+    </form>
+
+  </div>
+
+</div>
+
+

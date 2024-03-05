@@ -1,0 +1,143 @@
+.bloc{
+  display: flex;
+  justify-content: center;
+}
+.image{
+  border: 2px solid black; /* Définit une bordure solide de 2 pixels avec une couleur noire */
+  padding: 10px; /* Ajoute un espace intérieur pour distancer l'image de la bordure */
+  display: inline-block; /* Permet au conteneur de s'ajuster à la taille de l'image */
+  display: block; /* S'assure que l'image occupe tout l'espace disponible dans le conteneur */
+  max-width: 100%; /* Empêche l'image de dépasser la largeur du conteneur */
+  height: auto; /* Maintient le ratio hauteur/largeur de l'image */
+  border-radius: 5px;
+}
+.bloc1{
+  margin-left: 40px;
+}
+#per{
+  color: blue;
+}
+.fas {
+  color: blue;
+}
+
+.pa{
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-thickness: 4px;
+}
+.white-star {
+  color: white;
+}
+
+.orange-border {
+  text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
+}
+.bloc2 .white-star{
+  margin-left: 10px;
+}
+.titre{
+  color: #3468C0;
+
+}
+a{
+  text-decoration: none;
+
+}
+.bloc3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.bloc4 {
+  border: 2px solid blue;
+  padding-top: -1px;
+  margin-left: -480px; /* Ajustez la valeur de la marge négative selon vos besoins */
+  margin-top: 40px;
+  width: 240px;
+  height: 530px;
+  box-shadow: 0 0 5px blue;
+  padding-left: 25px;
+}
+.geo{
+  border: 2px solid black;
+  width: 100px;
+  height: 35px;
+  background-color: #D9D9D9;
+}
+.titre2{
+  color: #3468C0;
+
+}
+.bloc7{
+  margin-left: 300px;
+}
+.nb{
+  font-size: 50px;
+}
+.white-star{
+  margin-left: 10px;
+
+}
+.white-sta{
+  color: orange;
+  margin-left: 10px;
+}
+
+.bloc8{
+  margin-left: 300px;
+  margin-top: -22px;
+}
+.titre2{
+  margin-left: 300px;
+}
+.circle-container {
+  width: 50px; /* Ajustez la taille du cercle selon vos besoins */
+  height: 50px; /* Assurez-vous que width et height ont la même valeur pour obtenir un cercle */
+  border-radius: 50%; /* Applique la forme circulaire avec un rayon de 50% */
+  overflow: hidden; /* Masque le contenu qui dépasse du cercle */
+  background-color:  #FFDD95;
+  ;
+  margin-right: 70px;
+}
+.circle-container .pos{
+text-align: center;
+font-weight: bold;
+}
+.pos1{
+  font-weight: bold;
+}
+.bloc9{
+  display: flex;
+  justify-content: center;
+  margin-left: -550px;
+  margin-top: 20px;
+}
+.bloc10{
+  display: flex;
+  justify-content: center;
+  margin-left:-490px;
+  margin-top: 20px;
+}
+ .pos2{
+  margin-left: 20px;
+  margin-top: -3px;
+}
+.bloc11{
+  margin-left: 300px;
+}
+.bloc12{
+  display: flex;
+  justify-content: center;
+  margin-left: -348px;
+}
+.pos4{
+  margin-top: 15px;
+}
+.b1{
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 20px;
+}

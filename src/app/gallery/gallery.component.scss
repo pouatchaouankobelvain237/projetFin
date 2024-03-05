@@ -1,0 +1,70 @@
+.gallery {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3px; /* Ajustez cette valeur selon vos préférences */
+  margin-top: 25px;
+}
+
+.photo {
+  width: 10%; /* Ajustez cette valeur selon vos préférences */
+  border: 1px solid black; /* Définit une bordure solide de 2 pixels avec une couleur noire */
+  border-radius: 10px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+}
+
+.image-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-overlay img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.navigation-button1 {
+  padding: 5px 10px;
+  background-color: blue;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  left: 40px;
+
+
+}
+.navigation-button2 {
+  padding: 5px 10px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 40px;
+
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+}
+
+
+.photo:hover img {
+  transform: scale(1.1);
+  transition: transform 0.0s ease;
+}
