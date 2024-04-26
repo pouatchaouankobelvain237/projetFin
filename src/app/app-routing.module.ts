@@ -7,6 +7,7 @@ import { SingleEcoleComponent } from './single-ecole/single-ecole.component';
 import { EnregistrementEcoleComponent } from './enregistrement-ecole/enregistrement-ecole.component';
 import { EnregistrementEcole1Component } from './enregistrement-ecole1/enregistrement-ecole1.component';
 import { FormulaireCommentaireComponent } from './formulaire-commentaire/formulaire-commentaire.component';
+import { RechercheComponent } from './recherche/recherche.component';
 
 const routes: Routes = [
 {path:'Log in', component:ConnexionComponent},
@@ -16,6 +17,7 @@ const routes: Routes = [
 {path:'enregistrement ecole', component:EnregistrementEcoleComponent},
 {path:'enregistrement ecole suite', component:EnregistrementEcole1Component},
 {path:'commentaire', component:FormulaireCommentaireComponent},
+{path: 'recherche', component:RechercheComponent}
 
 ];
 

@@ -1,0 +1,37 @@
+<div class="col-7">
+  <img src="/assets/image/edu.jpg" alt="" width="1340" height="300">
+</div>
+<div class="premier"><h4 class="titre"><span>Research</span>School </h4>
+
+  <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+    <div>
+        <div class="form-group">
+          <input type="text" id="City_of_school" class="form-control" formControlName="City_of_school" placeholder="City of school">
+        </div>
+        <div class="form-group">
+          <input type="text" id="Type_of_school" class="form-control" formControlName="Type_of_school" placeholder="Type of school">
+        </div>
+        <div class="form-group">
+          <input type="text" id="Location_of_school" class="form-control" formControlName="Location_of_school" placeholder="Location of school">
+        </div>
+    </div>
+    <div>
+        <div class="form-group">
+          <input type="text" id="Location_of_school1" class="form-control" formControlName="Location of school" placeholder="Location of school">
+        </div>
+        <div class="form-group">
+          <input type="text" id="Location_of_school2" class="form-control" formControlName="Location of school" placeholder="Location of school">
+        </div>
+        <div class="form-group">
+          <input type="text" id="Location_of_school3" class="form-control" formControlName="Location of school" placeholder="Location of school">
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="button" class="btn2">delete</button><br> <br>
+        <button type="submit" class="btn1">Submit</button>
+    </div>
+
+  </form>
+</div>
+
+

@@ -1,0 +1,42 @@
+form{
+  display: flex;
+  justify-content: center;
+}
+.form-group input{
+  width: 212px;
+  height: 31px;
+  background-color: #ECEAEAC9;
+  margin-top: 20px;
+  margin-right: 25px;
+  border-radius: 10px;
+}
+
+::placeholder {
+  color:rgba(0, 0, 0, 0.8); /* Définit la couleur du texte de placeholder en noir */
+  font-weight: bold;
+}
+button{
+  width: 110px;
+  height: 31px;
+  background-color: orange;
+  border-radius: 5px;
+  color: white;
+  font-family: Poppins;
+}
+.btn2{
+  margin-top: 50px;
+}
+/* Souligner le texte en orange avec une épaisseur considérable */
+span {
+  border-bottom: 5px solid orange;
+  /*text-decoration-color: orange; /* Définit la couleur du soulignement en orange */
+
+}
+.titre{
+  margin-left: 350px;
+}
+.premier .titre{
+  margin-top: 90px;
+}
+
+

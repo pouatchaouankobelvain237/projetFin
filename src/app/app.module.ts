@@ -20,6 +20,7 @@ import { EnregistrementEcole1Component } from './enregistrement-ecole1/enregistr
 import { GalleryComponent } from './gallery/gallery.component';
 import { FormulaireCommentaireComponent } from './formulaire-commentaire/formulaire-commentaire.component';
 import { ComentaireComponent } from './comentaire/comentaire.component';
+import { RechercheComponent } from './recherche/recherche.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { ComentaireComponent } from './comentaire/comentaire.component';
     EnregistrementEcole1Component,
     GalleryComponent,
     FormulaireCommentaireComponent,
-    ComentaireComponent
+    ComentaireComponent,
+    RechercheComponent
 
   ],
   imports: [
